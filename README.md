@@ -99,4 +99,4 @@ python khrais_IRS_cyber.py
 
 - **KDF (HKDF)** :
   - Une fonction de dérivation basée sur HMAC-SHA256
-  - Permet d’obtenir une clé finale robuste et unifiée : \( K = \text{HKDF}(k_1 \| k_2) \)
+  - Permet d’obtenir une clé finale robuste et unifiée : \( 𝐾 = HKDF(𝑘1 ∥ 𝑘2)K=HKDF(k1 ∥ k2 ) — permet d'obtenir une clé commune dérivée des deux secrets partagés \)
